@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Daily Rates</string>
+    <!--Rates-->
+    <string name="title_currencies">Курсы валют</string>
+    <string name="error_occurred">Что-то пошло не так</string>
+    <string name="currency_scale_name">%1$d %2$s</string>
+    <string name="description_settings">Settings</string>
+
+    <!--Settings-->
+    <string name="title_settings">Настройка валют</string>
+    <string name="description_done">Done</string>
+    <string name="description_back">Back</string>
+    <string name="description_reorder_icon">Reorder icon</string>
+</resources>
