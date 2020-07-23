@@ -41,7 +41,6 @@ class RatesViewModel(
 
 
     init {
-
         scope.launch {
             status.set(Status.LOADING)
             val rates = interactor.getRatesForLastTwoAvailableDays()

@@ -19,9 +19,5 @@ class Preferences(private val defaultSharedPreferences: SharedPreferences) {
         defaultSharedPreferences.edit().putBoolean(SETTINGS_KEY, value).apply()
 
     fun isFirstLoading(): Boolean = defaultSharedPreferences.getBoolean(SETTINGS_KEY, true)
-
-    fun clear() {
-        defaultSharedPreferences.edit().clear().apply()
-    }
 }
 

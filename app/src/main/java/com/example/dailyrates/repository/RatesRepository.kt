@@ -23,7 +23,7 @@ class RatesRepository(
             val response = ratesApi.getExchangeRates(date)
             return responseHandler.handleSuccess(response)
         } catch (e: Exception) {
-            responseHandler.handleException(e);
+            responseHandler.handleException(e)
         }
     }
 

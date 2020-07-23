@@ -23,9 +23,7 @@ class RatesInteractor(
     private val responseHandler: ResponseHandler,
     private val prefs: Preferences
 ) {
-    companion object {
-        const val MIN_COUNT_DAY = 2;
-    }
+    private val MIN_COUNT_DAY = 2;
 
     suspend fun getRatesForLastTwoAvailableDays(
         listDates: List<String> = simpleCalendar.getDefaultDailyDates()
